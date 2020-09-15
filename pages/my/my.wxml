@@ -1,2 +1,43 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view>
+	<view class="top">
+		<image src="/assets/res/wy.jpeg"></image>
+		<view>
+			<text>张经理</text>
+			<view>代办商</view>
+		</view>
+	</view>
+	<view class="aaa">我的订单</view>
+	<view class="main">
+		<view>
+			<image src="/assets/images/order.png" />
+			<view>全部订单</view>
+		</view>
+		<view>
+			<image src="/assets/images/goods.png"></image>
+			<view>待发货</view>
+		</view>
+		<view>
+			<image src="/assets/images/deliverytime.png"></image>
+			<view>已发货</view>
+		</view>
+		<view>
+			<image src="/assets/images/finish.png"></image>
+			<view>已完成</view>
+		</view>
+	</view>
+	<view class="rectangle"></view>
+	<view class="footer">
+		<view>
+			<text>地址管理</text>
+			<text>></text>
+		</view>
+		<view>
+			<text>推荐给朋友</text>
+			<text>></text>
+		</view>
+		<view>
+			<text>联系客服</text>
+			<text>></text>
+		</view>
+	</view>
+</view>

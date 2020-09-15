@@ -6,7 +6,7 @@
     "pages/my/my"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "center",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "赣企通",
     "navigationBarTextStyle": "black"
@@ -16,15 +16,18 @@
   "tabBar": {
     "list": [{
         "pagePath": "pages/index/index",
-        "text": "印章申请"
+        "text": "印章申请",
+        "iconPath": "/assets/images/seal.png"
       },
       {
         "pagePath": "pages/registration/registration",
-        "text": "遗失登报"
+        "text": "遗失登报",
+        "iconPath": "/assets/images/registration.png"
       },
       {
         "pagePath": "pages/my/my",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "/assets/images/user.png"
       }
     ]
   }

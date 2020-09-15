@@ -1,1 +1,42 @@
-/* pages/my/my.wxss */
+.main image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.top {
+  display: flex;
+}
+
+.top image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+.aaa {
+  margin-top: 30rpx;
+  padding: 20rpx 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main>view {
+  padding: 30rpx 20rpx;
+  text-align: center;
+}
+
+.rectangle {
+  height: 15rpx;
+  background: #ccc;
+}
+
+.footer>view {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
