@@ -1,0 +1,44 @@
+<view>
+	<view class="license">
+		<text>上传营业执照副本</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="idcard">
+		<text>法人身份证</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="phone1">
+		<text>法人手机号码</text>
+		<text>（必填）</text>
+		<input placeholder="请输入法人手机号"></input>
+	</view>
+	<view class="idcard">
+		<text>代办人身份证正面</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="phone2">
+		<text>代办人手机号码</text>
+		<text>（必填）</text>
+		<input placeholder="请输入代办人手机号码"></input>
+	</view>
+</view>
+<view class="lost">
+	<text>选择遗失类型</text>
+	<text> 其他 ></text>
+</view>
+<textarea placeholder="请输入其他遗失类型"></textarea>
+<view class="number">
+	<text>编号（印章或营业执照）</text>
+	<input placeholder="请输入编号（印章或营业执照编号）"></input>
+</view>
+<text>价格：￥16.53</text>
+<button>提交登报</button>

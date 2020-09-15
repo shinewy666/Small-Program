@@ -1,0 +1,73 @@
+.upload {
+  height: 150rpx;
+}
+
+.upload view {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #ccc;
+  border: 1rpx solid#ccc;
+}
+
+.license {
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.idcard {
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.phone1 {
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.phone1 input {
+  padding: 20rpx 0;
+}
+
+.phone2 {
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.phone2 input {
+  padding: 20rpx 0;
+}
+
+.lost {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+  padding: 15rpx 20rpx;
+}
+
+textarea {
+  width: 100%;
+  height: 100rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.number {
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.number input {
+  padding: 20rpx 0;
+}
+
+button {
+  width: 100%;
+  color: white;
+  background: blue;
+}
