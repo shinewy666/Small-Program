@@ -1,0 +1,44 @@
+<view>
+	<view class="license">
+		<text>上传营业执照副本</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="idcard">
+		<text>法人身份证</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="phone1">
+		<text>法人手机号码</text>
+		<text>（必填）</text>
+		<input placeholder="请输入法人手机号"></input>
+	</view>
+	<view class="idcard">
+		<text>代办人身份证正面</text>
+		<text>（必填）</text>
+		<view class="upload">
+			<view>+</view>
+		</view>
+	</view>
+	<view class="phone2">
+		<text>代办人手机号码</text>
+		<text>（必填）</text>
+		<input placeholder="请输入代办人手机号码"></input>
+	</view>
+</view>
+<view class="package">
+	<text>选择套餐</text>
+	<text>套餐A ></text>
+</view>
+<view class="seal">
+	<checkbox>公章（光敏）</checkbox>
+	<checkbox>财务章（牛角）</checkbox>
+	<checkbox>法人章（牛角）</checkbox>
+</view>
+<text>价格：￥16.53</text>
+<button>提交申请</button>
