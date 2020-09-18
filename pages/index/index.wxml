@@ -41,4 +41,6 @@
 	<checkbox>法人章（牛角）</checkbox>
 </view>
 <text>价格：￥16.53</text>
-<button>提交申请</button>
+<navigator url="/pages/order/order">
+	<button style="width:95%">提交申请</button>
+</navigator>

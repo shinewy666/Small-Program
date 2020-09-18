@@ -1,0 +1,142 @@
+.ad {
+  font-size: 25rpx;
+  color: #ADADAD;
+}
+
+.red {
+  color: #FF4444;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid red;
+}
+
+.top>image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 20rpx;
+}
+
+.address {
+  font-size: 25rpx;
+}
+
+.top .user .userinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .icon {
+  margin: 20rpx;
+  font-size: 40rpx;
+}
+
+.top2 {
+  margin-top: 30rpx;
+}
+
+.top2>text {
+  padding: 18rpx 20rpx;
+}
+
+.top2main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  margin-top: 15rpx;
+  background: #FAFAFA;
+}
+
+.top2main>view {
+  margin: 20rpx 20rpx;
+}
+
+.top2main image {
+  margin-left: 20rpx;
+  width: 250rpx;
+  height: 160rpx;
+}
+
+.top2main .describe {
+  color: #999999;
+  font-size: 25rpx;
+}
+
+.amount {
+
+  margin-left: 50rpx;
+}
+
+.pd {
+  display: flex;
+  justify-content: space-between;
+  padding: 15rpx;
+}
+
+.all {
+  margin-right: 15rpx;
+}
+
+.aaa {
+  height: 20rpx;
+  background: #F2F2F2;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+
+.distribution {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+}
+
+.leaveword {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.leaveword text {
+  width: 200rpx;
+}
+
+.leaveword textarea {
+  height: 60rpx;
+  padding-top: 12rpx;
+}
+
+.money>view {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+}
+
+.footer>view {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+  height: 90rpx;
+}
+
+.post {
+  display: inline-block;
+  margin-left: 20rpx;
+  padding: 25rpx;
+  color: white;
+  background: #4374FF;
+}

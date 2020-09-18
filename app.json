@@ -1,12 +1,14 @@
 {
   "pages": [
+    "pages/allorders/allorders",
     "pages/index/index",
     "pages/logs/logs",
     "pages/registration/registration",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/order/order"
   ],
   "window": {
-    "backgroundTextStyle": "center",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "赣企通",
     "navigationBarTextStyle": "black"
@@ -17,18 +19,23 @@
     "list": [{
         "pagePath": "pages/index/index",
         "text": "印章申请",
-        "iconPath": "/assets/images/seal.png"
+        "iconPath": "/assets/images/seal.png",
+        "selectedIconPath": "/assets/images/seal-active.png"
       },
       {
         "pagePath": "pages/registration/registration",
         "text": "遗失登报",
-        "iconPath": "/assets/images/registration.png"
+        "iconPath": "/assets/images/registration.png",
+        "selectedIconPath": "/assets/images/registration-active.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "/assets/images/user.png"
+        "iconPath": "/assets/images/user.png",
+        "selectedIconPath": "/assets/images/user-active.png"
       }
-    ]
+    ],
+    "color": "#8C8C8C",
+    "selectedColor": "#4374FF"
   }
 }

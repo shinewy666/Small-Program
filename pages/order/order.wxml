@@ -1,0 +1,105 @@
+<view class="top">
+	<image src="/assets/images/定位.png"></image>
+	<view class="user">
+		<view class="userinfo">
+			<text>曹扬义</text>
+			<text>18620151790</text>
+		</view>
+
+		<view class="address ad">收货地址：广东省 广州市 天河区中山大道棠东东路 128号春江花园</view>
+	</view>
+	<view class="icon">></view>
+</view>
+<view class="top2">
+	<text>购买商品列表</text>
+	<view class="top2main">
+
+		<image src="/assets/images/order2.png"></image>
+		<view>
+			<view>其他遗失类型</view>
+			<view class="describe">其他的描述(编号:45464498416516518844xxs)</view>
+		</view>
+		<view>
+			<view>￥12.9</view>
+			<view class="amount">x1</view>
+		</view>
+
+	</view>
+	<view class="pd">
+		<view></view>
+		<view>
+			<text class="all ad">共1件商品</text>
+			<text>小计:</text>
+			<text class="red">￥12.90</text>
+		</view>
+
+	</view>
+
+</view>
+<view class="aaa"></view>
+<view class="information">
+	<text>代办人信息</text>
+	<text>></text>
+</view>
+<view class="aaa"></view>
+<view class="main">
+	<view class="distribution">
+		<text>配送方式</text>
+		<text>普通快递</text>
+	</view>
+	<view class="leaveword">
+		<text>买家留言</text>
+		<textarea placeholder="买家留言"></textarea>
+	</view>
+</view>
+<view class="aaa"></view>
+<view class="money">
+	<view>
+		<text>商品金额</text>
+		<text>￥12.90</text>
+	</view>
+	<view>
+		<text>运费</text>
+		<text>+￥20.00</text>
+	</view>
+	<view>
+		<view></view>
+		<view>
+			<text>合计：</text>
+			<text class="red">32.90</text>
+		</view>
+
+	</view>
+</view>
+<view class="aaa"></view>
+<view class="footer">
+	<view>
+		<text>订单号</text>
+		<text>1815998969327376952</text>
+	</view>
+	<view>
+		<text>创建时间</text>
+		<text>2020.09.12 15:48:52</text>
+	</view>
+	<view>
+		<text>付款时间</text>
+		<text>无</text>
+	</view>
+	<view>
+		<text>发货时间</text>
+		<text>无</text>
+	</view>
+	<view>
+		<text>完成时间</text>
+		<text>无</text>
+	</view>
+</view>
+<view class="aaa"></view>
+<view class="submit">
+	<view></view>
+	<view class="combined">
+		<text>合计:</text>
+		<text class="red">￥32.90</text>
+		<text class="post">提交订单</text>
+	</view>
+</view>
