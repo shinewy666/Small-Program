@@ -9,8 +9,10 @@
 	<view class="aaa">我的订单</view>
 	<view class="main">
 		<view>
-			<image src="/assets/images/order.png" />
-			<view>全部订单</view>
+			<navigator url="/pages/allorders/allorders">
+				<image src="/assets/images/order.png" />
+				<view>全部订单</view>
+			</navigator>
 		</view>
 		<view>
 			<image src="/assets/images/goods.png"></image>
