@@ -41,4 +41,4 @@
 	<input placeholder="请输入编号（印章或营业执照编号）"></input>
 </view>
 <text>价格：￥16.53</text>
-<button style="width:95%">提交登报</button>
+<button style="width:95%" bindtap="post">提交登报</button>

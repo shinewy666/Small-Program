@@ -1,12 +1,12 @@
 {
   "pages": [
-
     "pages/index/index",
     "pages/logs/logs",
     "pages/registration/registration",
     "pages/my/my",
+    "pages/allorders/allorders",
     "pages/order/order",
-    "pages/allorders/allorders"
+    "pages/order2/order2"
   ],
   "window": {
     "backgroundTextStyle": "light",
