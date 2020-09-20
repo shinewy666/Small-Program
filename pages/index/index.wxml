@@ -1,46 +1,41 @@
-<view>
-	<view class="license">
-		<text>上传营业执照副本</text>
-		<text>（必填）</text>
-		<view class="upload">
-			<view>+</view>
+<view class="body">
+	<view class="apply">印章申请</view>
+	<view class="packagea">
+		<view class="seta">
+			<text class="margin">套餐A</text>
+			<image src="../../assets/images/add.png" class="margin"></image>
+		</view>
+		<view class="seala">
+			公章（光敏）、财务章（牛角）、法人章（防牛角）</view>
+	</view>
+	<view class="packageb">
+		<view class="setb">
+			<text class="margin">套餐B</text>
+			<image src="../../assets/images/add.png" class="margin"></image>
+		</view>
+		<view class="sealb">
+			公章、合同章、发票章（光敏）、财务章、法人章（防牛角）
 		</view>
 	</view>
-	<view class="idcard">
-		<text>法人身份证</text>
-		<text>（必填）</text>
-		<view class="upload">
-			<view>+</view>
+	<view class="packagec">
+		<view class="setc">
+			<text class="margin">其他类型</text>
+			<image src="../../assets/images/add.png" class="margin"></image>
+		</view>
+		<view class="sealc">
+			光敏章（公章、财务章、合同章、发票章、法人章）
+			仿牛角章（财务章，法人章）
+			有机材料（法人章）
 		</view>
 	</view>
-	<view class="phone1">
-		<text>法人手机号码</text>
-		<text>（必填）</text>
-		<input placeholder="请输入法人手机号"></input>
-	</view>
-	<view class="idcard">
-		<text>代办人身份证正面</text>
-		<text>（必填）</text>
-		<view class="upload">
-			<view>+</view>
+	<view class=".apply">遗失登报</view>
+	<view class="packaged">
+		<view class="setd">
+			<text class="margin">可登报类型</text>
+			<image src="../../assets/images/add.png" class="margin"></image>
+		</view>
+		<view class="seald">
+			遗失类型：营业执照副本、营业执照正本、公章、财务章、合同章、其他）
 		</view>
 	</view>
-	<view class="phone2">
-		<text>代办人手机号码</text>
-		<text>（必填）</text>
-		<input placeholder="请输入代办人手机号码"></input>
-	</view>
 </view>
-<view class="package">
-	<text>选择套餐</text>
-	<text>套餐A ></text>
-</view>
-<view class="seal">
-	<checkbox>公章（光敏）</checkbox>
-	<checkbox>财务章（牛角）</checkbox>
-	<checkbox>法人章（牛角）</checkbox>
-</view>
-<text>价格：￥16.53</text>
-<navigator url="/pages/order/order">
-	<button style="width:95%">提交申请</button>
-</navigator>

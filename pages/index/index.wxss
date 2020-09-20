@@ -1,63 +1,119 @@
-.upload {
+.body {
+  width: 100%;
+  height: 100%;
+  background: #4374FF;
+}
+
+image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.margin {
+  margin: 0rpx 15rpx;
+}
+
+.apply {
+  padding: 30rpx 0;
+  text-align: center;
+  font-size: 50rpx;
+  text-shadow: 0rpx 10rpx 50rpx 10rpx rgba(85, 85, 85, 0.10);
+  color: white;
+}
+
+.packagea {
+  margin: 20rpx auto;
+  width: 90%;
   height: 150rpx;
 }
 
-.upload view {
-  width: 100rpx;
-  height: 100rpx;
-  font-size: 100rpx;
-  text-align: center;
-  line-height: 100rpx;
-  color: #ccc;
-  border: 1rpx solid#ccc;
-}
-
-.license {
-  margin-bottom: 20rpx;
-  padding-left: 20rpx;
-  border-bottom: 1rpx solid #ccc;
-}
-
-.idcard {
-  margin-bottom: 20rpx;
-  padding-left: 20rpx;
-  border-bottom: 1rpx solid #ccc;
-}
-
-.phone1 {
-  margin-bottom: 20rpx;
-  padding-left: 20rpx;
-  border-bottom: 1rpx solid #ccc;
-}
-
-.phone1 input {
-  padding: 20rpx 0;
-}
-
-.phone2 {
-  padding-left: 20rpx;
-  border-bottom: 1rpx solid #ccc;
-}
-
-.phone2 input {
-  padding: 20rpx 0;
-}
-
-.package {
+.seta {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1rpx solid #ccc;
-  padding: 15rpx 20rpx;
-}
-
-
-.seal checkbox {
+  align-items: center;
   width: 100%;
-  padding: 15rpx 20rpx;
-  border-bottom: 1rpx solid #ccc;
+  height: 40%;
+  color: white;
+  background: #8EAAFA;
+  border-radius: 2% 2% 0 0;
 }
 
-button {
+.seala {
+  width: 100%;
+  height: 60%;
+  background: white;
+  border-radius: 2%;
+}
+
+.packageb {
+  margin: 20rpx auto;
+  width: 90%;
+  height: 180rpx;
+}
+
+.setb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30%;
   color: white;
-  background: blue;
+  background: #8EAAFA;
+  border-radius: 2% 2% 0 0;
+}
+
+.sealb {
+  width: 100%;
+  height: 70%;
+  background: white;
+  border-radius: 2%;
+}
+
+.packagec {
+  margin: 20rpx auto;
+  width: 90%;
+  height: 230rpx;
+
+}
+
+.setc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  color: white;
+  background: #8EAAFA;
+  border-radius: 2% 2% 0 0;
+}
+
+.sealc {
+  width: 100%;
+  height: 70%;
+  background: white;
+  border-radius: 2%;
+}
+
+.packaged {
+  margin: 20rpx auto;
+  width: 90%;
+  height: 180rpx;
+}
+
+.setd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  color: white;
+  background: #8EAAFA;
+  border-radius: 2% 2% 0 0;
+}
+
+.seald {
+  width: 100%;
+  height: 70%;
+  background: white;
+  border-radius: 2%;
 }

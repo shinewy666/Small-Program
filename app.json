@@ -19,7 +19,7 @@
   "tabBar": {
     "list": [{
         "pagePath": "pages/index/index",
-        "text": "印章申请",
+        "text": "首页",
         "iconPath": "/assets/images/seal.png",
         "selectedIconPath": "/assets/images/seal-active.png"
       },

@@ -8,21 +8,19 @@
 	</view>
 	<view class="aaa">我的订单</view>
 	<view class="main">
-		<view>
-			<navigator url="/pages/allorders/allorders">
-				<image src="/assets/images/order.png" />
-				<view>全部订单</view>
-			</navigator>
+		<view bindtap="order">
+			<image src="/assets/images/order.png" />
+			<view>全部订单</view>
 		</view>
-		<view>
+		<view bindtap="order">
 			<image src="/assets/images/goods.png"></image>
 			<view>待发货</view>
 		</view>
-		<view>
+		<view bindtap="order">
 			<image src="/assets/images/deliverytime.png"></image>
 			<view>已发货</view>
 		</view>
-		<view>
+		<view bindtap="order">
 			<image src="/assets/images/finish.png"></image>
 			<view>已完成</view>
 		</view>
