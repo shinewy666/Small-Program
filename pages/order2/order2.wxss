@@ -112,7 +112,9 @@
   height: 80rpx;
   padding-top: 12rpx;
 }
-
+.money{
+  padding-bottom: 100rpx;
+}
 .money>view {
   display: flex;
   justify-content: space-between;
@@ -124,7 +126,12 @@
 .submit {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   height: 100rpx;
+  width: 100vw;
+  background: white;
 }
 
 .post {

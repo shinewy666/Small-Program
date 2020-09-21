@@ -23,9 +23,9 @@
 			<image src="../../assets/images/add.png" class="margin"></image>
 		</view>
 		<view class="sealc">
-			光敏章（公章、财务章、合同章、发票章、法人章）
-			仿牛角章（财务章，法人章）
-			有机材料（法人章）
+			<view>光敏章（公章、财务章、合同章、发票章、法人章）</view>
+			<view>仿牛角章（财务章，法人章）</view>
+			<view>有机材料（法人章）</view>
 		</view>
 	</view>
 	<view class=".apply">遗失登报</view>
@@ -35,7 +35,7 @@
 			<image src="../../assets/images/add.png" class="margin"></image>
 		</view>
 		<view class="seald">
-			遗失类型：营业执照副本、营业执照正本、公章、财务章、合同章、其他）
+			遗失类型：营业执照副本、营业执照正本、公章、财务章、合同章、其他
 		</view>
 	</view>
 </view>

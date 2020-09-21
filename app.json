@@ -1,12 +1,15 @@
 {
   "pages": [
+   
     "pages/index/index",
     "pages/logs/logs",
     "pages/registration/registration",
     "pages/my/my",
     "pages/allorders/allorders",
     "pages/order/order",
-    "pages/order2/order2"
+    "pages/order2/order2",
+    "test/test"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,7 +20,8 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "/assets/images/seal.png",

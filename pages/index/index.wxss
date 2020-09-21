@@ -1,6 +1,6 @@
 .body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #4374FF;
 }
 
@@ -9,9 +9,6 @@ image {
   height: 30rpx;
 }
 
-.margin {
-  margin: 0rpx 15rpx;
-}
 
 .apply {
   padding: 30rpx 0;
@@ -25,95 +22,107 @@ image {
   margin: 20rpx auto;
   width: 90%;
   height: 150rpx;
+  background: #8EAAFA;
+  border-radius: 8rpx;
 }
 
 .seta {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15rpx;
   width: 100%;
   height: 40%;
   color: white;
-  background: #8EAAFA;
-  border-radius: 2% 2% 0 0;
 }
 
 .seala {
   width: 100%;
   height: 60%;
+  line-height: 90rpx;
+  font-size: 28rpx;
+  padding: 0 15rpx;
   background: white;
-  border-radius: 2%;
+  border-radius: 8rpx;
 }
 
 .packageb {
   margin: 20rpx auto;
   width: 90%;
   height: 180rpx;
+  background: #8EAAFA;
+  border-radius: 8rpx;
 }
 
 .setb {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15rpx;
   width: 100%;
   height: 30%;
   color: white;
-  background: #8EAAFA;
-  border-radius: 2% 2% 0 0;
 }
 
 .sealb {
+  padding: 15rpx;
   width: 100%;
   height: 70%;
+  font-size: 28rpx;
   background: white;
-  border-radius: 2%;
+  border-radius: 8rpx;
 }
 
 .packagec {
   margin: 20rpx auto;
   width: 90%;
   height: 230rpx;
-
+  background: #8EAAFA;
+  border-radius: 8rpx;
 }
 
 .setc {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15rpx;
   width: 100%;
   height: 30%;
   color: white;
-  background: #8EAAFA;
-  border-radius: 1%;
 }
 
 .sealc {
+  padding: 15rpx;
   width: 100%;
   height: 70%;
+  font-size: 28rpx;
   background: white;
-  border-radius: 1%;
+  border-radius: 8rpx;
 }
 
 .packaged {
   margin: 20rpx auto;
   width: 90%;
   height: 180rpx;
+  background: #8EAAFA;
+  border-radius: 8rpx;
 }
 
 .setd {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15rpx;
   width: 100%;
   height: 30%;
   color: white;
-  background: #8EAAFA;
-  border-radius: 2% 2% 0 0;
 }
 
 .seald {
+  padding: 15rpx;
   width: 100%;
   height: 70%;
+  font-size: 28rpx;
   background: white;
-  border-radius: 2%;
+  border-radius: 8rpx;
 }

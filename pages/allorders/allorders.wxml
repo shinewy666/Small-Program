@@ -5,60 +5,124 @@
 	<text>已发货</text>
 	<text>已完成</text>
 </view>
-<view>
-	<view class="ordernumber fs">
-		<text>订单编号: 1415998947981960537</text>
-		<text class="red">等待买家付款</text>
-	</view>
-	<view class="bg">
-		<image src="/assets/images/order2.png"></image>
-		<view class="seal">
-			<view>光敏章</view>
-			<view class="aaa gray">公章</view>
+
+<swiper autoplay="true">
+<swiper-item>
+	<view>
+		<view class="ordernumber fs">
+			<text>订单编号: 1415998947981960537</text>
+			<text class="red">等待买家付款</text>
 		</view>
-		<view>
-			<view>￥12.90</view>
-			<view>x1</view>
+		<view class="bg">
+			<image src="/assets/images/order2.png"></image>
+			<view class="seal">
+				<view>光敏章</view>
+				<view class="aaa gray">公章</view>
+			</view>
+			<view>
+				<view>￥12.90</view>
+				<view>x1</view>
+			</view>
 		</view>
-	</view>
-	<view class="allgoods">
-		<view></view>
-		<view>
-			<text>共1件商品</text>
-			<text>小计:</text>
-			<text class="red">￥12.90</text>
+		<view class="allgoods">
+			<view></view>
+			<view>
+				<text>共1件商品</text>
+				<text>小计:</text>
+				<text class="red">￥12.90</text>
+			</view>
 		</view>
-	</view>
-	<view class="btlist">
-		<view></view>
-		<view class="bt">
-			<text>取消</text>
-			<text>付款</text>
-		</view>
-	</view>
-</view>
-<view>
-	<view class="ordernumber fs">
-		<text>订单编号: 1415998947981960537</text>
-		<text class="red">待发货</text>
-	</view>
-	<view class="bg">
-		<image src="/assets/images/order2.png"></image>
-		<view class="seal1">
-			<view>其他遗失类型</view>
-			<view class="aaa gray">其他的描述(编号：45464498416516518844XXS)</view>
-		</view>
-		<view>
-			<view>￥12.90</view>
-			<view>x1</view>
+		<view class="btlist">
+			<view></view>
+			<view class="bt">
+				<text>取消</text>
+				<text>付款</text>
+			</view>
 		</view>
 	</view>
-	<view class="allgoods">
-		<view></view>
-		<view>
-			<text>共1件商品</text>
-			<text>小计:</text>
-			<text class="red">￥12.90</text>
+	<view>
+		<view class="ordernumber fs">
+			<text>订单编号: 1415998947981960537</text>
+			<text class="red">待发货</text>
+		</view>
+		<view class="bg">
+			<image src="/assets/images/order2.png"></image>
+			<view class="seal1">
+				<view>其他遗失类型</view>
+				<view class="aaa gray">其他的描述(编号：45464498416516518844XXS)</view>
+			</view>
+			<view>
+				<view>￥12.90</view>
+				<view>x1</view>
+			</view>
+		</view>
+		<view class="allgoods">
+			<view></view>
+			<view>
+				<text>共1件商品</text>
+				<text>小计:</text>
+				<text class="red">￥12.90</text>
+			</view>
 		</view>
 	</view>
-</view>
+</swiper-item>
+<swiper-item>
+	<view>
+		<view class="ordernumber fs">
+			<text>订单编号: 1415998947981960537</text>
+			<text class="red">等待买家付款</text>
+		</view>
+		<view class="bg">
+			<image src="/assets/images/order2.png"></image>
+			<view class="seal">
+				<view>光敏章</view>
+				<view class="aaa gray">公章</view>
+			</view>
+			<view>
+				<view>￥12.90</view>
+				<view>x1</view>
+			</view>
+		</view>
+		<view class="allgoods">
+			<view></view>
+			<view>
+				<text>共1件商品</text>
+				<text>小计:</text>
+				<text class="red">￥12.90</text>
+			</view>
+		</view>
+		<view class="btlist">
+			<view></view>
+			<view class="bt">
+				<text>取消</text>
+				<text>付款</text>
+			</view>
+		</view>
+	</view>
+	<view>
+		<view class="ordernumber fs">
+			<text>订单编号: 1415998947981960537</text>
+			<text class="red">待发货</text>
+		</view>
+		<view class="bg">
+			<image src="/assets/images/order2.png"></image>
+			<view class="seal1">
+				<view>其他遗失类型</view>
+				<view class="aaa gray">其他的描述(编号：45464498416516518844XXS)</view>
+			</view>
+			<view>
+				<view>￥12.90</view>
+				<view>x1</view>
+			</view>
+		</view>
+		<view class="allgoods">
+			<view></view>
+			<view>
+				<text>共1件商品</text>
+				<text>小计:</text>
+				<text class="red">￥12.90</text>
+			</view>
+		</view>
+	</view>
+</swiper-item>
+</swiper>
